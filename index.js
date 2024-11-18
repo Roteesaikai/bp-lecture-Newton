@@ -67,12 +67,12 @@ const nu = null;
 // console.log(nameArr,":original")
 // nameArr.push("Newton") //เพิ่มต่อท้าย
 // console.log(nameArr,":After Push")
-// nameArr.pop()
+// nameArr.pop()//เอาตัวท้ายออก
 // console.log(nameArr,":After Pop")
 // nameArr.push("Newton")
 // nameArr.unshift("Ter") //เพิ่มข้างหน้า
 // console.log(nameArr,":After Unshift")
-// nameArr.shift()
+// nameArr.shift()//เอาตัวหน้าออก
 // console.log(nameArr,":After shift")
 
 const userObj = {
@@ -233,7 +233,7 @@ const nums = [1, 2, 3, 4, 5];
 //     console.log("In Foreach Loop "+ value + " index " + index)
 // });
 
-// const noThree = nums.filter((value)=>value !== 3)
+// const noThree = nums.filter((value)=>value >= 3)
 // console.log(noThree)
 
 const fnA = ()=>{}
@@ -261,4 +261,4 @@ async function FetchApi(name){
         console.log("finsh loading!")
     }
 }
-FetchApi("pikachu")
+// FetchApi("pikachu")
